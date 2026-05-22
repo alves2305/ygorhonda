@@ -309,3 +309,130 @@ button:hover{
 
   margin-top:30px;
 }
+
+
+
+/* =========================
+   PÁGINA DA MOTO
+========================= */
+
+.hero-moto{
+  text-align:center;
+
+  padding:40px 0;
+}
+
+.voltar{
+  display:inline-flex;
+
+  align-items:center;
+
+  gap:10px;
+
+  text-decoration:none;
+
+  color:#1d2b45;
+
+  margin-bottom:30px;
+}
+
+.moto-detalhe-img{
+  width:100%;
+
+  max-width:500px;
+
+  margin:30px auto;
+
+  display:block;
+}
+
+.hero-moto h1{
+  font-size:2.5rem;
+
+  margin-bottom:10px;
+}
+
+.categoria{
+  color:#777;
+}
+
+/* =========================
+   DETALHES
+========================= */
+
+.detalhes,
+.consorcio,
+.financiamento{
+  margin-top:50px;
+}
+
+.detalhes h2,
+.consorcio h2,
+.financiamento h2{
+  margin-bottom:25px;
+
+  text-align:center;
+}
+
+.info-box{
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(200px,1fr));
+
+  gap:20px;
+}
+
+.item{
+  background:white;
+
+  padding:25px;
+
+  border-radius:20px;
+
+  text-align:center;
+
+  box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.item span{
+  display:block;
+
+  color:#777;
+
+  margin-bottom:10px;
+}
+
+.item strong{
+  font-size:1.2rem;
+}
+
+/* =========================
+   PLANOS
+========================= */
+
+.plano{
+  background:white;
+
+  padding:30px;
+
+  border-radius:25px;
+
+  text-align:center;
+
+  box-shadow:0 5px 15px rgba(0,0,0,.05);
+
+  max-width:500px;
+
+  margin:auto;
+}
+
+.valor{
+  display:block;
+
+  font-size:2rem;
+
+  color:#d90000;
+
+  margin:20px 0;
+}
