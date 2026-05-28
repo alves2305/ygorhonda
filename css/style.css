@@ -999,3 +999,74 @@ button:active{
 
   justify-content:space-between;
 }
+
+
+.formulario-consorcio{
+  background:white;
+
+  margin-top:40px;
+
+  padding:30px;
+
+  border-radius:30px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.formulario-consorcio h1{
+  text-align:center;
+
+  margin-bottom:30px;
+
+  color:#1d2b45;
+
+  font-size:38px;
+}
+
+#formConsorcio{
+  display:flex;
+
+  flex-direction:column;
+
+  gap:18px;
+}
+
+#formConsorcio input{
+  width:100%;
+
+  padding:18px;
+
+  border:none;
+
+  border-radius:15px;
+
+  background:#f5f5f5;
+
+  font-size:16px;
+
+  outline:none;
+}
+
+#enviarWhatsapp{
+  background:#25d366;
+
+  color:white;
+
+  border:none;
+
+  padding:20px;
+
+  border-radius:50px;
+
+  font-size:18px;
+
+  font-weight:bold;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+#enviarWhatsapp:hover{
+  transform:scale(1.02);
+}

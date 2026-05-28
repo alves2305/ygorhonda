@@ -161,3 +161,55 @@ if(pesquisa){
   });
 
 }
+
+
+const enviarWhatsapp =
+document.getElementById('enviarWhatsapp');
+
+if(enviarWhatsapp){
+
+  enviarWhatsapp.addEventListener('click', () => {
+
+    const cpf =
+    document.getElementById('cpf').value;
+
+    const estadoCivil =
+    document.getElementById('estadoCivil').value;
+
+    const endereco =
+    document.getElementById('endereco').value;
+
+    const email =
+    document.getElementById('email').value;
+
+    const profissao =
+    document.getElementById('profissao').value;
+
+    const renda =
+    document.getElementById('renda').value;
+
+    const primeiraParcela =
+    document.getElementById('primeiraParcela').value;
+
+    const mensagem =
+`Olá Rafael, gostaria de fazer agora meu consórcio.
+
+CPF: ${cpf}
+Estado civil: ${estadoCivil}
+Endereço: ${endereco}
+E-mail: ${email}
+Profissão: ${profissao}
+Renda mensal: ${renda}
+Valor da primeira parcela: ${primeiraParcela}`;
+
+    const numero =
+    '5574999679596';
+
+    const url =
+`https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+
+    window.open(url, '_blank');
+
+  });
+
+}
