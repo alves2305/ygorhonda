@@ -247,7 +247,7 @@ if(enviarWhatsapp){
 
     // MENSAGEM
     const mensagem =
-`Olá Ícaro, gostaria de fazer agora meu consórcio da ${nomeMoto}.
+`Olá Ygor, gostaria de fazer agora meu consórcio da ${nomeMoto}.
 
 CPF: ${cpf.value}
 
@@ -267,7 +267,7 @@ Forma de pagamento: ${formaPagamento.value}`;
 
 
     const numero =
-    '5577981415753';
+    '5574999946369';
 
     const url =
 `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
